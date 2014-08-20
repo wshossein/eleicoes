@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C56B0D8119A41DB700861C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D8019A41DB700861C8B /* Foundation.framework */; };
+		C56B0D8319A41DB700861C8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D8219A41DB700861C8B /* CoreGraphics.framework */; };
+		C56B0D8519A41DB700861C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D8419A41DB700861C8B /* UIKit.framework */; };
+		C56B0D8B19A41DB700861C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C56B0D8919A41DB700861C8B /* InfoPlist.strings */; };
+		C56B0D8D19A41DB700861C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56B0D8C19A41DB700861C8B /* main.m */; };
+		C56B0D9119A41DB700861C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56B0D9019A41DB700861C8B /* AppDelegate.m */; };
+		C56B0D9319A41DB700861C8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56B0D9219A41DB700861C8B /* Images.xcassets */; };
+		C56B0D9A19A41DB700861C8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D9919A41DB700861C8B /* XCTest.framework */; };
+		C56B0D9B19A41DB700861C8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D8019A41DB700861C8B /* Foundation.framework */; };
+		C56B0D9C19A41DB700861C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D8419A41DB700861C8B /* UIKit.framework */; };
+		C56B0DA419A41DB700861C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C56B0DA219A41DB700861C8B /* InfoPlist.strings */; };
+		C56B0DA619A41DB700861C8B /* EleicoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56B0DA519A41DB700861C8B /* EleicoesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C56B0D9D19A41DB700861C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56B0D7519A41DB700861C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56B0D7C19A41DB700861C8B;
+			remoteInfo = Eleicoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C56B0D7D19A41DB700861C8B /* Eleicoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eleicoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56B0D8019A41DB700861C8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C56B0D8219A41DB700861C8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C56B0D8419A41DB700861C8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C56B0D8819A41DB700861C8B /* Eleicoes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eleicoes-Info.plist"; sourceTree = "<group>"; };
+		C56B0D8A19A41DB700861C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C56B0D8C19A41DB700861C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C56B0D8E19A41DB700861C8B /* Eleicoes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eleicoes-Prefix.pch"; sourceTree = "<group>"; };
+		C56B0D8F19A41DB700861C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C56B0D9019A41DB700861C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C56B0D9219A41DB700861C8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C56B0D9819A41DB700861C8B /* EleicoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EleicoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56B0D9919A41DB700861C8B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C56B0DA119A41DB700861C8B /* EleicoesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EleicoesTests-Info.plist"; sourceTree = "<group>"; };
+		C56B0DA319A41DB700861C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C56B0DA519A41DB700861C8B /* EleicoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EleicoesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C56B0D7A19A41DB700861C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B0D8319A41DB700861C8B /* CoreGraphics.framework in Frameworks */,
+				C56B0D8519A41DB700861C8B /* UIKit.framework in Frameworks */,
+				C56B0D8119A41DB700861C8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56B0D9519A41DB700861C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B0D9A19A41DB700861C8B /* XCTest.framework in Frameworks */,
+				C56B0D9C19A41DB700861C8B /* UIKit.framework in Frameworks */,
+				C56B0D9B19A41DB700861C8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C56B0D7419A41DB700861C8B = {
+			isa = PBXGroup;
+			children = (
+				C56B0D8619A41DB700861C8B /* Eleicoes */,
+				C56B0D9F19A41DB700861C8B /* EleicoesTests */,
+				C56B0D7F19A41DB700861C8B /* Frameworks */,
+				C56B0D7E19A41DB700861C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C56B0D7E19A41DB700861C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C56B0D7D19A41DB700861C8B /* Eleicoes.app */,
+				C56B0D9819A41DB700861C8B /* EleicoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C56B0D7F19A41DB700861C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C56B0D8019A41DB700861C8B /* Foundation.framework */,
+				C56B0D8219A41DB700861C8B /* CoreGraphics.framework */,
+				C56B0D8419A41DB700861C8B /* UIKit.framework */,
+				C56B0D9919A41DB700861C8B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C56B0D8619A41DB700861C8B /* Eleicoes */ = {
+			isa = PBXGroup;
+			children = (
+				C56B0D8F19A41DB700861C8B /* AppDelegate.h */,
+				C56B0D9019A41DB700861C8B /* AppDelegate.m */,
+				C56B0D9219A41DB700861C8B /* Images.xcassets */,
+				C56B0D8719A41DB700861C8B /* Supporting Files */,
+			);
+			path = Eleicoes;
+			sourceTree = "<group>";
+		};
+		C56B0D8719A41DB700861C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56B0D8819A41DB700861C8B /* Eleicoes-Info.plist */,
+				C56B0D8919A41DB700861C8B /* InfoPlist.strings */,
+				C56B0D8C19A41DB700861C8B /* main.m */,
+				C56B0D8E19A41DB700861C8B /* Eleicoes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C56B0D9F19A41DB700861C8B /* EleicoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C56B0DA519A41DB700861C8B /* EleicoesTests.m */,
+				C56B0DA019A41DB700861C8B /* Supporting Files */,
+			);
+			path = EleicoesTests;
+			sourceTree = "<group>";
+		};
+		C56B0DA019A41DB700861C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C56B0DA119A41DB700861C8B /* EleicoesTests-Info.plist */,
+				C56B0DA219A41DB700861C8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C56B0D7C19A41DB700861C8B /* Eleicoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56B0DA919A41DB700861C8B /* Build configuration list for PBXNativeTarget "Eleicoes" */;
+			buildPhases = (
+				C56B0D7919A41DB700861C8B /* Sources */,
+				C56B0D7A19A41DB700861C8B /* Frameworks */,
+				C56B0D7B19A41DB700861C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eleicoes;
+			productName = Eleicoes;
+			productReference = C56B0D7D19A41DB700861C8B /* Eleicoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56B0D9719A41DB700861C8B /* EleicoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C56B0DAC19A41DB700861C8B /* Build configuration list for PBXNativeTarget "EleicoesTests" */;
+			buildPhases = (
+				C56B0D9419A41DB700861C8B /* Sources */,
+				C56B0D9519A41DB700861C8B /* Frameworks */,
+				C56B0D9619A41DB700861C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56B0D9E19A41DB700861C8B /* PBXTargetDependency */,
+			);
+			name = EleicoesTests;
+			productName = EleicoesTests;
+			productReference = C56B0D9819A41DB700861C8B /* EleicoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56B0D7519A41DB700861C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Nappix;
+				TargetAttributes = {
+					C56B0D9719A41DB700861C8B = {
+						TestTargetID = C56B0D7C19A41DB700861C8B;
+					};
+				};
+			};
+			buildConfigurationList = C56B0D7819A41DB700861C8B /* Build configuration list for PBXProject "Eleicoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C56B0D7419A41DB700861C8B;
+			productRefGroup = C56B0D7E19A41DB700861C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C56B0D7C19A41DB700861C8B /* Eleicoes */,
+				C56B0D9719A41DB700861C8B /* EleicoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C56B0D7B19A41DB700861C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B0D8B19A41DB700861C8B /* InfoPlist.strings in Resources */,
+				C56B0D9319A41DB700861C8B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56B0D9619A41DB700861C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B0DA419A41DB700861C8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C56B0D7919A41DB700861C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B0D9119A41DB700861C8B /* AppDelegate.m in Sources */,
+				C56B0D8D19A41DB700861C8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56B0D9419A41DB700861C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56B0DA619A41DB700861C8B /* EleicoesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C56B0D9E19A41DB700861C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56B0D7C19A41DB700861C8B /* Eleicoes */;
+			targetProxy = C56B0D9D19A41DB700861C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C56B0D8919A41DB700861C8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56B0D8A19A41DB700861C8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C56B0DA219A41DB700861C8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C56B0DA319A41DB700861C8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C56B0DA719A41DB700861C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C56B0DA819A41DB700861C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C56B0DAA19A41DB700861C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eleicoes/Eleicoes-Prefix.pch";
+				INFOPLIST_FILE = "Eleicoes/Eleicoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C56B0DAB19A41DB700861C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eleicoes/Eleicoes-Prefix.pch";
+				INFOPLIST_FILE = "Eleicoes/Eleicoes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C56B0DAD19A41DB700861C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eleicoes.app/Eleicoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eleicoes/Eleicoes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EleicoesTests/EleicoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C56B0DAE19A41DB700861C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eleicoes.app/Eleicoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eleicoes/Eleicoes-Prefix.pch";
+				INFOPLIST_FILE = "EleicoesTests/EleicoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C56B0D7819A41DB700861C8B /* Build configuration list for PBXProject "Eleicoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56B0DA719A41DB700861C8B /* Debug */,
+				C56B0DA819A41DB700861C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C56B0DA919A41DB700861C8B /* Build configuration list for PBXNativeTarget "Eleicoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56B0DAA19A41DB700861C8B /* Debug */,
+				C56B0DAB19A41DB700861C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C56B0DAC19A41DB700861C8B /* Build configuration list for PBXNativeTarget "EleicoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C56B0DAD19A41DB700861C8B /* Debug */,
+				C56B0DAE19A41DB700861C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56B0D7519A41DB700861C8B /* Project object */;
+}
