@@ -19,6 +19,31 @@
 		C56B0D9C19A41DB700861C8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56B0D8419A41DB700861C8B /* UIKit.framework */; };
 		C56B0DA419A41DB700861C8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C56B0DA219A41DB700861C8B /* InfoPlist.strings */; };
 		C56B0DA619A41DB700861C8B /* EleicoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C56B0DA519A41DB700861C8B /* EleicoesTests.m */; };
+		C56B0DB219A41E3600861C8B /* GameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C56B0DB019A41E3600861C8B /* GameVC.m */; };
+		C56B0DB319A41E3600861C8B /* GameVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56B0DB119A41E3600861C8B /* GameVC.xib */; };
+		C56B0DB519A4202C00861C8B /* urna.png in Resources */ = {isa = PBXBuildFile; fileRef = C56B0DB419A4202C00861C8B /* urna.png */; };
+		C56E98D419A7B21F009AFB7E /* over.aif in Resources */ = {isa = PBXBuildFile; fileRef = C56E98D319A7B21F009AFB7E /* over.aif */; };
+		C56E98D819A7C51D009AFB7E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56E98D719A7C51D009AFB7E /* AVFoundation.framework */; };
+		C56E98DA19A7C55B009AFB7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56E98D919A7C55B009AFB7E /* AudioToolbox.framework */; };
+		C56E98DC19A84AF6009AFB7E /* perfil.png in Resources */ = {isa = PBXBuildFile; fileRef = C56E98DB19A84AF6009AFB7E /* perfil.png */; };
+		C56E98DE19A84FA3009AFB7E /* nameList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C56E98DD19A84FA3009AFB7E /* nameList.plist */; };
+		C56E98E019A85B01009AFB7E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56E98DF19A85B01009AFB7E /* FacebookSDK.framework */; };
+		C56E98E219A87B7A009AFB7E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56E98E119A87B7A009AFB7E /* iAd.framework */; };
+		C5A0663619A6B27E00808C0F /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5A0663519A6B27E00808C0F /* back.jpg */; };
+		C5AE6F3F19A8D6FF00F3073B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AE6F3E19A8D6FF00F3073B /* StoreKit.framework */; };
+		C5DA6D0219A9B61B00411D8E /* eye1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CF819A9B61B00411D8E /* eye1.png */; };
+		C5DA6D0319A9B61B00411D8E /* eye2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CF919A9B61B00411D8E /* eye2.png */; };
+		C5DA6D0419A9B61B00411D8E /* eye3.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CFA19A9B61B00411D8E /* eye3.png */; };
+		C5DA6D0519A9B61B00411D8E /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CFB19A9B61B00411D8E /* face.png */; };
+		C5DA6D0619A9B61B00411D8E /* hair1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CFC19A9B61B00411D8E /* hair1.png */; };
+		C5DA6D0719A9B61B00411D8E /* hair2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CFD19A9B61B00411D8E /* hair2.png */; };
+		C5DA6D0819A9B61B00411D8E /* hair3.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CFE19A9B61B00411D8E /* hair3.png */; };
+		C5DA6D0919A9B61B00411D8E /* smile1.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6CFF19A9B61B00411D8E /* smile1.png */; };
+		C5DA6D0A19A9B61B00411D8E /* smile2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6D0019A9B61B00411D8E /* smile2.png */; };
+		C5DA6D0B19A9B61B00411D8E /* smile3.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6D0119A9B61B00411D8E /* smile3.png */; };
+		C5DA6D0F19A9BD9F00411D8E /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6D0C19A9BD9F00411D8E /* 1.wav */; };
+		C5DA6D1019A9BD9F00411D8E /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6D0D19A9BD9F00411D8E /* 2.wav */; };
+		C5DA6D1119A9BD9F00411D8E /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = C5DA6D0E19A9BD9F00411D8E /* 3.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +73,32 @@
 		C56B0DA119A41DB700861C8B /* EleicoesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EleicoesTests-Info.plist"; sourceTree = "<group>"; };
 		C56B0DA319A41DB700861C8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C56B0DA519A41DB700861C8B /* EleicoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EleicoesTests.m; sourceTree = "<group>"; };
+		C56B0DAF19A41E3600861C8B /* GameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameVC.h; sourceTree = "<group>"; };
+		C56B0DB019A41E3600861C8B /* GameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameVC.m; sourceTree = "<group>"; };
+		C56B0DB119A41E3600861C8B /* GameVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameVC.xib; sourceTree = "<group>"; };
+		C56B0DB419A4202C00861C8B /* urna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = urna.png; path = ../urna.png; sourceTree = "<group>"; };
+		C56E98D319A7B21F009AFB7E /* over.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = over.aif; sourceTree = "<group>"; };
+		C56E98D719A7C51D009AFB7E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C56E98D919A7C55B009AFB7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C56E98DB19A84AF6009AFB7E /* perfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfil.png; sourceTree = "<group>"; };
+		C56E98DD19A84FA3009AFB7E /* nameList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nameList.plist; sourceTree = "<group>"; };
+		C56E98DF19A85B01009AFB7E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		C56E98E119A87B7A009AFB7E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		C5A0663519A6B27E00808C0F /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		C5AE6F3E19A8D6FF00F3073B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C5DA6CF819A9B61B00411D8E /* eye1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye1.png; path = imagens/eye1.png; sourceTree = "<group>"; };
+		C5DA6CF919A9B61B00411D8E /* eye2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye2.png; path = imagens/eye2.png; sourceTree = "<group>"; };
+		C5DA6CFA19A9B61B00411D8E /* eye3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eye3.png; path = imagens/eye3.png; sourceTree = "<group>"; };
+		C5DA6CFB19A9B61B00411D8E /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = imagens/face.png; sourceTree = "<group>"; };
+		C5DA6CFC19A9B61B00411D8E /* hair1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hair1.png; path = imagens/hair1.png; sourceTree = "<group>"; };
+		C5DA6CFD19A9B61B00411D8E /* hair2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hair2.png; path = imagens/hair2.png; sourceTree = "<group>"; };
+		C5DA6CFE19A9B61B00411D8E /* hair3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hair3.png; path = imagens/hair3.png; sourceTree = "<group>"; };
+		C5DA6CFF19A9B61B00411D8E /* smile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile1.png; path = imagens/smile1.png; sourceTree = "<group>"; };
+		C5DA6D0019A9B61B00411D8E /* smile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile2.png; path = imagens/smile2.png; sourceTree = "<group>"; };
+		C5DA6D0119A9B61B00411D8E /* smile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smile3.png; path = imagens/smile3.png; sourceTree = "<group>"; };
+		C5DA6D0C19A9BD9F00411D8E /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		C5DA6D0D19A9BD9F00411D8E /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		C5DA6D0E19A9BD9F00411D8E /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +106,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5AE6F3F19A8D6FF00F3073B /* StoreKit.framework in Frameworks */,
+				C56E98E219A87B7A009AFB7E /* iAd.framework in Frameworks */,
+				C56E98DA19A7C55B009AFB7E /* AudioToolbox.framework in Frameworks */,
+				C56E98D819A7C51D009AFB7E /* AVFoundation.framework in Frameworks */,
 				C56B0D8319A41DB700861C8B /* CoreGraphics.framework in Frameworks */,
 				C56B0D8519A41DB700861C8B /* UIKit.framework in Frameworks */,
 				C56B0D8119A41DB700861C8B /* Foundation.framework in Frameworks */,
+				C56E98E019A85B01009AFB7E /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +152,11 @@
 		C56B0D7F19A41DB700861C8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5AE6F3E19A8D6FF00F3073B /* StoreKit.framework */,
+				C56E98E119A87B7A009AFB7E /* iAd.framework */,
+				C56E98DF19A85B01009AFB7E /* FacebookSDK.framework */,
+				C56E98D919A7C55B009AFB7E /* AudioToolbox.framework */,
+				C56E98D719A7C51D009AFB7E /* AVFoundation.framework */,
 				C56B0D8019A41DB700861C8B /* Foundation.framework */,
 				C56B0D8219A41DB700861C8B /* CoreGraphics.framework */,
 				C56B0D8419A41DB700861C8B /* UIKit.framework */,
@@ -111,6 +172,9 @@
 				C56B0D9019A41DB700861C8B /* AppDelegate.m */,
 				C56B0D9219A41DB700861C8B /* Images.xcassets */,
 				C56B0D8719A41DB700861C8B /* Supporting Files */,
+				C56B0DAF19A41E3600861C8B /* GameVC.h */,
+				C56B0DB019A41E3600861C8B /* GameVC.m */,
+				C56B0DB119A41E3600861C8B /* GameVC.xib */,
 			);
 			path = Eleicoes;
 			sourceTree = "<group>";
@@ -118,10 +182,28 @@
 		C56B0D8719A41DB700861C8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5DA6D0C19A9BD9F00411D8E /* 1.wav */,
+				C5DA6D0D19A9BD9F00411D8E /* 2.wav */,
+				C5DA6D0E19A9BD9F00411D8E /* 3.wav */,
+				C5DA6CF819A9B61B00411D8E /* eye1.png */,
+				C5DA6CF919A9B61B00411D8E /* eye2.png */,
+				C5DA6CFA19A9B61B00411D8E /* eye3.png */,
+				C5DA6CFB19A9B61B00411D8E /* face.png */,
+				C5DA6CFC19A9B61B00411D8E /* hair1.png */,
+				C5DA6CFD19A9B61B00411D8E /* hair2.png */,
+				C5DA6CFE19A9B61B00411D8E /* hair3.png */,
+				C5DA6CFF19A9B61B00411D8E /* smile1.png */,
+				C5DA6D0019A9B61B00411D8E /* smile2.png */,
+				C5DA6D0119A9B61B00411D8E /* smile3.png */,
+				C56E98D319A7B21F009AFB7E /* over.aif */,
+				C56E98DB19A84AF6009AFB7E /* perfil.png */,
+				C5A0663519A6B27E00808C0F /* back.jpg */,
+				C56B0DB419A4202C00861C8B /* urna.png */,
 				C56B0D8819A41DB700861C8B /* Eleicoes-Info.plist */,
 				C56B0D8919A41DB700861C8B /* InfoPlist.strings */,
 				C56B0D8C19A41DB700861C8B /* main.m */,
 				C56B0D8E19A41DB700861C8B /* Eleicoes-Prefix.pch */,
+				C56E98DD19A84FA3009AFB7E /* nameList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -219,7 +301,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DA6D1119A9BD9F00411D8E /* 3.wav in Resources */,
+				C5DA6D0319A9B61B00411D8E /* eye2.png in Resources */,
+				C5DA6D0219A9B61B00411D8E /* eye1.png in Resources */,
+				C5DA6D0819A9B61B00411D8E /* hair3.png in Resources */,
+				C56E98D419A7B21F009AFB7E /* over.aif in Resources */,
+				C56E98DC19A84AF6009AFB7E /* perfil.png in Resources */,
+				C5DA6D0719A9B61B00411D8E /* hair2.png in Resources */,
+				C5DA6D0419A9B61B00411D8E /* eye3.png in Resources */,
 				C56B0D8B19A41DB700861C8B /* InfoPlist.strings in Resources */,
+				C5DA6D0A19A9B61B00411D8E /* smile2.png in Resources */,
+				C5DA6D0F19A9BD9F00411D8E /* 1.wav in Resources */,
+				C5DA6D0619A9B61B00411D8E /* hair1.png in Resources */,
+				C5DA6D0919A9B61B00411D8E /* smile1.png in Resources */,
+				C5A0663619A6B27E00808C0F /* back.jpg in Resources */,
+				C5DA6D0B19A9B61B00411D8E /* smile3.png in Resources */,
+				C5DA6D0519A9B61B00411D8E /* face.png in Resources */,
+				C56E98DE19A84FA3009AFB7E /* nameList.plist in Resources */,
+				C56B0DB519A4202C00861C8B /* urna.png in Resources */,
+				C5DA6D1019A9BD9F00411D8E /* 2.wav in Resources */,
+				C56B0DB319A41E3600861C8B /* GameVC.xib in Resources */,
 				C56B0D9319A41DB700861C8B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56B0DB219A41E3600861C8B /* GameVC.m in Sources */,
 				C56B0D9119A41DB700861C8B /* AppDelegate.m in Sources */,
 				C56B0D8D19A41DB700861C8B /* main.m in Sources */,
 			);
@@ -359,10 +461,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eleicoes/Eleicoes-Prefix.pch";
 				INFOPLIST_FILE = "Eleicoes/Eleicoes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "423006c5-cce3-4883-92dc-858598de81e1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,10 +480,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eleicoes/Eleicoes-Prefix.pch";
 				INFOPLIST_FILE = "Eleicoes/Eleicoes-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0681f30-24b1-4a45-853b-369279138487";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -439,6 +553,7 @@
 				C56B0DAB19A41DB700861C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C56B0DAC19A41DB700861C8B /* Build configuration list for PBXNativeTarget "EleicoesTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +562,7 @@
 				C56B0DAE19A41DB700861C8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

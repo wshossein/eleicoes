@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "GameVC.h"
+#import <FacebookSDK/FacebookSDK.h>
+#import <iAd/iAd.h>
 
 @implementation AppDelegate
 
@@ -16,7 +19,61 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    GameVC* vc = [GameVC new];
+     [self.window setRootViewController:vc];
     return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation: (id)annotation
+{
+    BOOL urlWasHandled =
+    [FBAppCall handleOpenURL:url
+           sourceApplication:sourceApplication
+             fallbackHandler:
+     ^(FBAppCall *call) {
+         // Parse the incoming URL to look for a target_url parameter
+         NSString *query = [url query];
+         NSDictionary *params = [self parseURLParams:query];
+         // Check if target URL exists
+         NSString *appLinkDataString = [params valueForKey:@"al_applink_data"];
+         if (appLinkDataString)
+         {
+             NSError *error = nil;
+             NSDictionary *applinkData =
+             [NSJSONSerialization JSONObjectWithData:[appLinkDataString dataUsingEncoding:NSUTF8StringEncoding]
+                                             options:0
+                                               error:&error];
+             if (!error &&
+                 [applinkData isKindOfClass:[NSDictionary class]] &&
+                 applinkData[@"target_url"]) {
+                 self.refererAppLink = applinkData[@"referer_app_link"];
+                 NSString *targetURLString = applinkData[@"target_url"];
+                 // Show the incoming link in an alert
+                 // Your code to direct the user to the
+                 // appropriate flow within your app goes here
+                 [[[UIAlertView alloc] initWithTitle:@"Received link:"
+                                             message:targetURLString
+                                            delegate:nil
+                                   cancelButtonTitle:@"OK"
+                                   otherButtonTitles:nil] show];
+             }
+         }
+     }];
+    
+    return urlWasHandled;
+}
+
+// A function for parsing URL parameters returned by the Feed Dialog.
+- (NSDictionary*)parseURLParams:(NSString *)query {
+    NSArray *pairs = [query componentsSeparatedByString:@"&"];
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    for (NSString *pair in pairs) {
+        NSArray *kv = [pair componentsSeparatedByString:@"="];
+        NSString *val =
+        [kv[1] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        params[kv[0]] = val;
+    }
+    return params;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
